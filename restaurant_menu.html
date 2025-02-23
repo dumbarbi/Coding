@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 
+            Restaurant Chimmy
+        </title>   
+
+
+        <style>
+            header{
+                background-color: rgb(103, 135, 165);
+                text-align: center;
+                padding: 20px;
+                border-radius: 20px;
+                margin: 20px;
+            }
+            body {
+                background-color: rgb(179, 192, 207);
+
+            }
+
+            a{
+                text-decoration: none;
+                color:white;
+                text-transform: none;
+                transition: 0.25s ease;
+            }
+
+            ul{
+                
+                display: flex;
+                flex-wrap: wrap;
+                list-style: none;
+            }
+
+            ul li{
+                text-decoration: none;
+                margin: 0 0.75em 0 0.75em;
+                
+            }
+
+            ul:hover a{
+                color: #dfdada;
+            }
+
+            ul:hover a:hover{
+                color: #b7c5ee;
+                box-shadow: 0 2px 0 0 currentColor;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 80px;
+                font-family: 'Times New Roman', Times, serif ;
+                color: rgb(32, 51, 85);
+                text-shadow: 2px 2px 4px rgb(173, 168, 168);
+            }
+
+            nav {
+                text-align: center;
+                font-size: 30px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                color: rgb(59, 89, 155);
+                
+            }
+
+            
+
+            section{
+                background-color: rgb(93, 132, 168);
+                padding: 20px;
+                margin: 20px;
+                border-radius: 20px;
+                color:#cfd4e4
+                
+            }
+
+            h2{
+                font-size: 40px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                color: rgb(41, 64, 105);
+                text-shadow: 2px 2px 4px rgb(255, 255, 255);
+            }
+
+            h3{
+                font-size: 30px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                color: rgb(59, 89, 155);
+                text-shadow: 2px 2px 4px rgb(255, 255, 255);
+            }
+
+            main{
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 20px;
+                color:white;
+                
+            }
+            
+
+
+        </style>
+    </head>
+
+    <body>
+        <header>     
+              
+            <h1> Restaurant Chimmy </h1>  
+            <img
+                style="border-radius: 100%; object-fit: cover;"
+            
+                src="https://i.pinimg.com/736x/b8/55/67/b855670c9faf89068440bf407197d99d.jpg"
+                width="250"
+            />
+
+            <nav>
+                <ul>
+                    <li><a href="#datos"> Information </a></li>
+                    <li><a href="#menu"> Menu </a></li>
+                    <li><a href="#order-form"> Order-form </a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <br/>
+
+        <main>
+            <input type="radio" name="option"> Delivery <input type="radio" name="option"> Pick Up <br/>
+            
+            <section id="datos">
+                <h2> Information </h2><br/>
+                <p>Please enter your details for your order</p>
+
+                <!-- REVISAR -->
+                <label>Name: </label> <input type="text" required><br/> 
+
+                <label>Adress: </label> <input type="text" required> <br/>
+                <label>Phone: </label> <input type="number" maxlength="9" minlength="9" required> <br/>
+                <label>Mail: </label> <input type="email" required> <br/>
+            
+            </section>
+
+            <br/>
+
+            <section id="menu">
+                <h2> Menu </h2>
+                
+
+                <article>
+                    <h3>Korean CornDog</h3>
+                    <figure>
+                        <img 
+                        width="250"
+                        style="border-radius: 100%; object-fit: cover;"
+                        src="https://tb-static.uber.com/prod/image-proc/processed_images/700ca319f8b76339bef6c8a34f503b0f/30be7d11a3ed6f6183354d1933fbb6c7.jpeg"
+                        />
+                        <p> The best option for something delicious and simple, offering one of the best price-quality ratios.
+                            The Korean corn dog, a popular Korean street food, consists of cheese (or cheese and sausage) wrapped in a crispy fried corn batter, coated with panko or a mix of panko and diced potatoes.
+                            To enhance its flavor, it can be topped with sugar and served with a variety of sauces, such as cheese sauce, mayonnaise, ketchup, or mustard, allowing you to customize it to your taste!
+                            <br/><br/>
+                            
+                            Original: $2,5 USD<br/>
+                            In potatoes: $3,5 USD<br/>
+                            
+
+                        </p>
+                    </figure>
+                </article>
+
+                <article>
+                    <figure>
+                        <h3>Just-Burger Hamburger</h3>
+                        <img
+                        width="250"
+                        style="border-radius: 100%; object-fit: cover;"
+                        src="https://tofuu.getjusto.com/orioneat-local/resized2/uNNPTmQGtBmXmTneP-800-x.webp"
+                        />
+                        <p>
+                            The most expensive option on the menu, but its flavor is absolutely worth the price. A delicious burger, available as a single or double patty, can be enjoyed with just cheese and Just sauce or as a Quarter Pounder. Served with crispy, golden fries and a refreshing drink of your choice. Once you take a bite, you won’t be able to resist coming back for more!
+                            <br/><br/>
+                            
+                                Single Cheese: $8 USD<br/>
+                                Double Cheese: $10 USD<br/>
+                                Quarter Pounder simple: $9 USD<br/>
+                                Quarter Pounder double: $12 USD<br/>
+                            
+                        </p>
+                    </figure>
+                </article>
+
+                <article>
+                    <figure>
+                        <h3>Chimmy's Pizza</h3>
+                        <img
+                        width="250"
+                        style="border-radius: 100%; object-fit: cover;"
+                        src="https://i0.wp.com/www.toastykettle.com/wp-content/uploads/2020/08/little-caesar-hot-ready-pepperoni-pizza.jpg?resize=750%2C549&ssl=1"
+                        />
+                        <p>
+                            An irresistible extra pepperoni pizza with an extra layer of melted cheese—and the best part? Cheesy pepperoni-stuffed crust! Baked to perfection with a super crispy crust, it’s the ultimate treat for pizza lovers. Perfect for sharing... or keeping all to yourself!
+                            <br/><br/>
+                            
+                            Familiar: $9,5 USD<br/>
+                            
+                        </p>
+                    </figure>
+                </article>
+
+                
+                <article>
+                    <h3> Juice with Ice</h3>
+                    <figure>
+                        <img 
+                        width="250"
+                        style="border-radius: 100%; object-fit: cover;"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsIxii7rtZF0Jb71jwJu4_ahJ199owqbJA9A&s"
+                        />
+                        <p>
+                            Refreshing and fruity! These popular Korean pouch drinks are the perfect way to cool down. Simply pour them over ice and enjoy a burst of natural flavor. Choose between the crisp and slightly tangy green grape or the sweet and juicy peach. Their smooth and refreshing taste makes them an ideal companion for any meal or snack!
+                            <br/><br/>
+                            
+                            Green Grape: $1,5 USD<br/>
+                            Peach: $1,5 USD<br/>
+                            
+                        </p>
+                    </figure>
+
+                </article>
+                    
+                <article>
+                    <h3> Samanco Chocolate</h3>
+                    <figure>
+                        <img 
+                        width="250"
+                        style="border-radius: 100%; object-fit: cover;"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-M3I9RHg3aaOtPvaH_BbKcJwuBBG_ahSEEw&s"
+                        />
+                        <P>
+                            A delightful fusion of crispy and creamy! The Samanco chocolate ice cream features a light, fish-shaped wafer shell filled with smooth, rich chocolate ice cream and a luscious chocolate filling. Its unique texture and perfectly balanced sweetness make it an irresistible treat for any chocolate lover. A bite of this Korean classic will transport you to dessert heaven!
+                            <br/><br/>
+                            
+                            Original: $2 USD<br/>
+                            
+                        </P>
+                    </figure>
+
+
+                </article>
+
+            </section>
+
+
+            <section id="order-form">
+                <h2> Place your Order!! </h2>
+                <p>Please select the options you would like to order and the quantity</p>
+                <form>
+                    <input type="checkbox" name="option"> Korean CornDog Original <br/>
+                    <label> Cheese </label> <input type="number" min="0" max="4"> <br/>
+                    <label> Mix </label> <input type="number" min="0" max="4"> <br/>
+                    <textarea name="message" rows="1" cols="50" placeholder="Pick two sauces o none, with sugar or not..."></textarea> <br/><br/>
+
+                    <input type="checkbox" name="option"> Korean CornDog In potatoes: <br/>
+                    <label> Cheese </label> <input type="number" min="0" max="4"> <br/>
+                    <label> Mix </label> <input type="number" min="0" max="4"> <br/>
+                    <textarea name="message" rows="1" cols="50" placeholder="Pick two sauces o none, with sugar or not..."></textarea> <br/><br/>
+
+                    <input type="checkbox" name="option"> Just-Burger Hamburger <br/>
+                    <label> Single Cheese: </label> <input type="number" min="0" max="10"> <br/>
+                    <label> Double Cheese: </label> <input type="number" min="0" max="10"> <br/>
+                    <label> Quarter Pounder simple: </label> <input type="number" min="0" max="10"> <br/>
+                    <label> Quarter Pounder double: </label> <input type="number" min="0" max="10"> <br/>
+                    <textarea name="message" rows="1" cols="50" placeholder="Any special request..."></textarea> <br/><br/>
+
+
+
+                    <label> Chimmy's Pizza: </label> <input type="number" min="0" max="10"> <br/>
+                    <textarea name="message" rows="1" cols="50" placeholder="Any special request..."></textarea> <br/><br/>
+
+                    <input type="checkbox" name="option"> Juice With Ice <br/>
+                    <label> Green Grape: </label> <input type="number" min="0" max="4"> <br/>
+                    <label> Peach: </label> <input type="number" min="0" max="4"> <br/>
+                    <textarea name="message" rows="1" cols="50" placeholder="Any special request..."></textarea> <br/><br/>
+
+                    <input type="checkbox" name="option"> Samanco Chocolate <input type="number" min="0" max="4"> <br/>
+                    <textarea name="message" rows="1" cols="50" placeholder="Any special request..."></textarea> <br/><br/>
+
+                    <input type="submit" value="Go To Checkout!">
+                </form>
+
+
+
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p> &copy; 2025 Restaurant Chimmy </p>
+            <p>Made with love by @dumbarbi</p>
+        </footer>
+
+    </body>
+</html>
